@@ -1,0 +1,21 @@
+.parent-wrapper {
+    height:499px;
+    width:499px;
+ 
+}
+.parent {
+    height:100%;
+    width:100%;
+    display: flex;
+  
+    flex-wrap:wrap;
+  margin: 0;
+  padding:0;
+}
+.child {
+    display: inline-block;
+    margin: 0;
+  padding:0;
+    flex-grow: 1;
+   
+}
